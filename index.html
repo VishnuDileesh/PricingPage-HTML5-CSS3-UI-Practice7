@@ -1,21 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing Page - HTML5 & CSS3 | UI Practice</title>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    
-<!--
+  </head>
+  <body>
+    <!--
 
 UI Design by:
 https://uidesigndaily.com/posts/sketch-pricing-page-table-subscription-card-cards-day-1116
 
 -->
 
+    <div class="container">
+      <header>
+        <div class="card-alert">
+          <h5>Your current plan:</h5>
+          <h3>Starter Trial 500 MAUs</h3>
+        </div>
+      </header>
 
-</body>
+      <main>
+        <div class="header">
+          <h2>Choose a plan</h2>
+          <div class="plan-toggle">
+            <p>
+              Billed monthly
+            </p>
+            <label class="toggle-btn">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+            <p>
+              Billed anually
+            </p>
+          </div>
+        </div>
+
+        <div class="price-cards">
+          <div class="card">
+            <div class="card-header">
+              <h3>Starter</h3>
+              <h1>$19</h1>
+            </div>
+
+            <div class="card-package">
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>500 MAUs</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>3 projects</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited guides</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited flows</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited branded themes</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Email support</p>
+              </div>
+            </div>
+
+            <input class="btn" type="button" value="Choose Plan" />
+          </div>
+
+          <div class="card card-pro">
+            <div class="card-header">
+              <h3>Pro</h3>
+              <h1>$19month</h1>
+            </div>
+
+            <div class="custom-select">
+              <select>
+                <option value="0">2500 MAUs</option>
+              </select>
+              <ion-icon
+                class="icon-down"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+
+            <small>Monthly active users</small>
+
+            <div class="card-package card-pro-package">
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>All starter features, plus:</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited projects</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited fully customaziable themes</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>A dedicated Customer Success Manager</p>
+              </div>
+            </div>
+
+            <input class="btn btn-color" type="button" value="Choose Plan" />
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3>Enterprise</h3>
+              <h1>Let's Talk!</h1>
+            </div>
+
+            <div class="card-package">
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>All Pro features</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Unlimited MAUs</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Dedicated environment</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Enterprise account administration</p>
+              </div>
+              <div class="feature">
+                <ion-icon class="icon-circle" name="ellipse"></ion-icon>
+                <p>Premium support and services</p>
+              </div>
+            </div>
+
+            <input class="btn" type="button" value="Contact Us" />
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
